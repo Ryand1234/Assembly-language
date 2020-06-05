@@ -1,11 +1,8 @@
-
-
 SECTION .data
 msg: db "hello World", 10
 len: equ $ - msg
 
 SECTION .text
-
 	global	_start
 _start:
 	nop
